@@ -1,0 +1,184 @@
+/* 这个css文件专门定义和vant适配的自定义图标 */
+/* 用法如下 */
+
+/* 引入第三方或自定义的字体图标样式 */
+@font-face {
+  font-family: "my-icon";
+  src: url("//at.alicdn.com/t/font_2265958_1gla97evg24.ttf") format("truetype");
+}
+
+.my-icon {
+  font-family: "my-icon";
+  /* 图标是斜的 处理方法 */
+  position: relative;
+  font: 0.37333rem/1 "my-icon";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+/* 菜单图标 */
+.my-icon-meau::before {
+  content: "\e600";
+}
+/* 每日推荐图标 */
+.my-icon-toplist::before {
+  color: #ec4141;
+  content: "\e68f";
+}
+/* 私人FM图片 */
+.my-icon-fm::before {
+  color: #ec4141;
+  content: "\e601";
+}
+/* 歌单图标 */
+.my-icon-playlist::before {
+  color: #ec4141;
+  content: "\e636";
+}
+/* 每日推荐图标 */
+.my-icon-recommend::before {
+  color: #ec4141;
+  content: "\e6a8";
+}
+/* 音乐黑名单图标 */
+.my-icon-ban::before {
+  content: "\e62e";
+}
+/* 关于图标 */
+.my-icon-about::before {
+  content: "\e603";
+}
+/* 创作者中心图标 */
+.my-icon-creator_center::before {
+  content: "\e60d";
+}
+/* 青少年模式图标 */
+.my-icon-youth_model::before {
+  content: "\e62a";
+}
+/* 音乐闹钟图标 */
+.my-icon-alarm_clock::before {
+  content: "\e602";
+}
+/* 订单图标 */
+.my-icon-order::before {
+  content: "\e608";
+}
+/* 消息图标 */
+.my-icon-msg::before {
+  content: "\e609";
+}
+/* 优惠券图标 */
+.my-icon-coupon::before {
+  content: "\e623";
+}
+/* 粉丝图标 */
+.my-icon-fans::before {
+  content: "\e605";
+}
+/* 评论图标 */
+.my-icon-comment::before {
+  content: "\e606";
+}
+/* 艾特图标 */
+.my-icon-ate::before {
+  content: "\e648";
+}
+/* 通知图标 */
+.my-icon-notice::before {
+  content: "\e615";
+}
+/* 新歌发布图标 */
+.my-icon-newsend::before {
+  content: "\e702";
+}
+/* 上一曲图标 */
+.my-icon-pre::before {
+  content: "\e620";
+}
+/* 下一曲图标 */
+.my-icon-next::before {
+  content: "\e691";
+}
+/* X 按钮图标 */
+.my-icon-del::before {
+  content: "\e626";
+}
+/* 列表循环图标 */
+.my-icon-sequence::before {
+  content: "\e65f";
+}
+/* 随机播放图标 */
+.my-icon-random::before {
+  content: "\e627";
+}
+/* 单曲循环图标 */
+.my-icon-loop::before {
+  content: "\e628";
+}
+/* 分享图标 */
+.my-icon-share::before {
+  content: "\e614";
+}
+/* 唱片图标 */
+.my-icon-song::before {
+  content: "\e62b";
+}
+/* 歌词图标 */
+.my-icon-lyric::before {
+  content: "\e62c";
+}
+/* mv图标 */
+.my-icon-mv::before {
+  content: "\e621";
+}
+/* c-ellipsis*/
+.my-icon-col_ellipsis::before {
+  content: "\e6f8";
+}
+/* 评论 */
+.my-icon-comment_noline::before {
+  content: "\e606";
+}
+/* 下载图标 */
+.my-icon-download::before {
+  content: "\e6f3";
+}
+
+/* 云盘图标 */
+.my-icon-cloud::before {
+  content: "\e60c";
+}
+/* 已购图标 */
+.my-icon-buy::before {
+  content: "\e660";
+}
+/* 最近播放图标 */
+.my-icon-historyPlay::before {
+  content: "\e60f";
+}
+/* blog图标 */
+.my-icon-blog::before {
+  content: "\e616";
+}
+/* 心动模式图标 */
+.my-icon-likemodel::before {
+  content: "\e607";
+}
+
+/* 男 图标 带圈 */
+.my-icon-man::before {
+  content: "\e60a";
+}
+/* 女 图标 带圈 */
+.my-icon-women::before {
+  content: "\e683";
+}
+/* 男 图标 不带圈 */
+.my-icon-man2::before {
+  content: "\e66b";
+}
+/* 女 图标 不带圈 */
+.my-icon-women2::before {
+  content: "\e647";
+}
