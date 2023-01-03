@@ -1,4 +1,6 @@
-# vue_music测试用例
+# vue_music
+###介绍
+  大四毕业设计，勿喷。
 
 ## Project setup
 ```
