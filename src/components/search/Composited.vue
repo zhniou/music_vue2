@@ -187,8 +187,9 @@ export default {
 
 <style lang="less" scope>
 .composited_container {
-  height: 512px;
+  height: calc(100% -  55px);
   overflow: scroll;
+  margin-bottom: 50px;
   // 单曲
   .list_div {
     width: 92%;

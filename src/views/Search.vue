@@ -154,11 +154,6 @@ export default {
 .search{
   background-color: #f1f3f4;
   font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  right: 0;
   span{
     margin: 10px;
   }

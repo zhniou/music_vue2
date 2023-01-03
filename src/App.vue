@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <router-view></router-view>
     <Player v-show="showPlayer&&$route.path !== '/fm'"></Player>
   </div>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-div{
-  // background-color: #f1f3f4;
+#app{
+  height: 100%;
 }
 </style>
